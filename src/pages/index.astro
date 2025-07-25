@@ -1,7 +1,19 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Badge from "../components/badge.astro";
+import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Mi Portfolio">
-  <main></main>
+  <main>
+    <section class="w-full mx-auto lg:w-[740px] py-44">
+      <h1 class="text-white text-5xl font-bold flex flex-row gap-x-4 pb-4">
+        Hola, Soy Agustin <div class="flex justify-center items-center">
+          <Badge>Disponible para trabajar</Badge>
+        </div>
+      </h1>
+      <h2 class="text-2xl">+5 anos de experiencia. Desarrollador de Software <br>Con experiencia en Java y Angular tambien un poco de Javascript y node como vos quieras pero llamame</h2>
+
+      <ul></ul>
+    </section>
+  </main>
 </Layout>
